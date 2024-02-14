@@ -1,0 +1,73 @@
+body {
+    font-family: 'Protest Riot';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgb(255, 124, 124), rgb(255, 167, 167), rgb(255, 211, 211), rgb(255, 227, 232), white);
+}
+
+.title {
+    color: rgb(255, 96, 122);
+    font-size: 30px;
+}
+
+.container {
+    text-align: center;
+}
+
+.mail {
+    cursor: pointer;
+}
+
+.cat-img {
+    width: 350px;
+    height: 350px;
+}
+
+.btn {
+    border: none;
+    padding: 8px 20px;
+    margin: -30px 0 0 0;
+    border-radius: 3px;
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.btn.btn--yes {
+    background-color: rgb(0, 225, 0);
+    float: left;
+}
+
+.btn.btn--yes:hover {
+    background-color: rgb(0, 197, 0);
+}
+
+.btn.btn--no {
+    background-color: rgb(255, 0, 0);
+    float: right;
+}
+
+.btn.btn--no:hover {
+    background-color: rgb(214, 0, 0);
+}
+
+@media only screen and (max-width:640px) {
+    .cat-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+}
